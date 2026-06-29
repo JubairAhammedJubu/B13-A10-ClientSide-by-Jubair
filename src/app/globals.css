@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+
+@import 'swiper/css';
+@import 'swiper/css/pagination';
+@import 'swiper/css/effect-fade';
+
+body {
+  @apply bg-white text-gray-900 dark:bg-[#0f1117] dark:text-gray-100 transition-colors duration-300;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
