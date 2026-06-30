@@ -29,7 +29,7 @@ const Footer = () => {
           {/* Brand column */}
           <div className="relative border-b md:border-b-0  px-7 py-10">
             {/* Signature accent line */}
-            <span className="absolute left-0 top-8 bottom-8 w-[3px] rounded-r-full bg-indigo-500/30 dark:bg-indigo-500/40 overflow-hidden">
+            <span className="absolute left-1.5 top-8 bottom-8 w-[3px] rounded-r-full bg-indigo-500/30 dark:bg-indigo-500/40 overflow-hidden">
               <motion.span
                 className="block w-full h-5 rounded-full bg-indigo-500"
                 animate={{
@@ -44,14 +44,7 @@ const Footer = () => {
             </span>
 
             <Link href="/" className="flex items-center gap-2.5 mb-4">
-              <Image
-                src="/Image/Logo3.png"
-                alt="Learnora logo"
-                width={34}
-                height={34}
-                className="rounded-lg object-contain"
-              />
-              <span className="text-lg font-serif font-semibold text-gray-900 dark:text-gray-100 tracking-tight">
+              <span className="text-xl font-bold bg-linear-to-r from-indigo-500 to-cyan-400 bg-clip-text text-transparent truncate">
                 Learnora
               </span>
             </Link>

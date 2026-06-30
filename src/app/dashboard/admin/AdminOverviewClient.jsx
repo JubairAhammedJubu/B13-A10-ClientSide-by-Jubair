@@ -123,7 +123,7 @@ export default function AdminOverviewClient({user}) {
     .slice(0, 5);
 
   if (isLoading) {
-  <Loading></Loading>
+  return <Loading />;
   }
 
   return (

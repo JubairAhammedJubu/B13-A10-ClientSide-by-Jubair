@@ -21,7 +21,7 @@ import {
   ChevronLeft,
   ChevronRight,
   Shield,
-  Store,
+  FileText,
   Menu,
   X,
   Bookmark,
@@ -47,9 +47,9 @@ const NAV_LINKS = {
   admin: [
     {label: "Overview", href: "/dashboard/admin", icon: LayoutDashboard},
     {label: "My Profile", href: "/dashboard/admin/profile", icon: User},
-    {label: "Manage Lessons", href: "/dashboard/admin/lessons", icon: Ticket},
+    {label: "Manage Lessons", href: "/dashboard/admin/lessons", icon: BookOpen},
     {label: "Manage Users", href: "/dashboard/admin/users", icon: Users},
-    {label: "Report Lessons", href: "/dashboard/admin/reports", icon: Store},
+    {label: "Report Lessons", href: "/dashboard/admin/reports", icon: FileText},
   ],
 };
 

@@ -187,7 +187,7 @@ function LessonCard({lesson, user}) {
           <span>{creatorName}</span>
           {lesson.creatorIsPremium && (
             <span className="text-[10px] text-amber-500 font-medium ml-1">
-              ✦ Premium
+              ✦ Premium User
             </span>
           )}
         </div>
