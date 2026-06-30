@@ -10,7 +10,7 @@ Learnora is a full-stack platform where people can capture the life lessons, per
 
 | Resource | Link |
 |---|---|
-| 🌐 Live Site | [https://your-live-site-url.com](https://learnora-client-main.vercel.app/) |
+| 🌐 Live Site | (https://learnora-client-main.vercel.app/) |
 
 ---
 
