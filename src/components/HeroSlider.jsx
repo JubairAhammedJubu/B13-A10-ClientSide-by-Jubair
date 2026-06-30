@@ -71,7 +71,7 @@ const HeroSlider = () => {
         effect="fade"
         fadeEffect={{crossFade: true}}
         speed={800}
-        autoplay={{delay: 3200, disableOnInteraction: false}}
+        autoplay={{delay: 2500, disableOnInteraction: false}}
         pagination={{clickable: true}}
         loop={true}
         onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
@@ -148,12 +148,6 @@ const HeroSlider = () => {
                 >
                   Browse Lessons
                   <ArrowRight className="w-4 h-4" />
-                </button>
-                <button
-                  onClick={() => router.push("/")}
-                  className="flex items-center gap-2 px-6 py-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-sm font-semibold hover:bg-white/20 transition-all duration-200"
-                >
-                  Upgrade for More
                 </button>
               </motion.div>
             </motion.div>
