@@ -237,36 +237,7 @@ http://localhost:3000
 
 ---
 
-# 📊 Database Collections
-
-
-
-```
-
-users
-
-
-
-lessons
-
-
-
-favorites
-
-
-
-comments
-
-
-
-lessonReports
-
-```
-
----
-
 # 🔒 Security Features
-
 
 
 * Better Auth Authentication
