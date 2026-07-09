@@ -66,7 +66,7 @@ People often learn valuable lessons through experience — but without a place t
 
 ---
 
-## 🛠️ Tech Stack & NPM Packages
+## 📦 NPM Dependencies
 
 ### Client
 | Package | Purpose |
@@ -106,12 +106,234 @@ People often learn valuable lessons through experience — but without a place t
 
 ---
 
+## 🛠️ Technologies Used
+
+| Category       | Technologies                                                                                                                                                                                |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Frontend**   | React, React Router DOM, Tailwind CSS, DaisyUI, Axios, TanStack Query, Better Auth Client, React Hook Form, Framer Motion, React Hot Toast, SweetAlert2, Recharts, React Icons, React Share |
+| **Backend**    | Node.js, Express.js, MongoDB, Better Auth, Stripe, JWT (JSON Web Token), CORS, Dotenv, Cookie Parser                                                                                        |
+| **Database**   | MongoDB Atlas                                                                                                                                                                               |
+| **Deployment** | Firebase / Vercel (Client), Render / Railway / Vercel (Server), MongoDB Atlas                                                                                                               |
+---
+
 ## 👤 Admin Access (for evaluation)
 
 | Field | Value |
 |---|---|
 | Admin Email | `Jubair34@gmail.com` |
 | Admin Password | `Jubair34` |
+
+---
+
+## 2. Install dependencies
+
+### Client
+
+```bash
+
+cd learnora-client
+
+npm install
+
+```
+
+### Server
+
+```bash
+
+cd learnora-server
+
+npm install
+
+```
+
+---
+
+## 3. Configure Environment Variables
+
+
+
+Create a `.env` file in both the client and server folders and add the required environment variables.
+
+---
+
+## 4. Start the backend
+
+```bash
+
+npm run dev
+
+```
+
+---
+
+## 5. Start the frontend
+
+```bash
+
+npm run dev
+
+```
+
+---
+
+## 6. Open the application
+
+```
+
+http://localhost:3000
+
+```
+
+---
+
+# 👨‍💻 User Roles
+
+
+
+## Free User
+
+
+
+* Create Free Lessons
+
+* Browse Public Lessons
+
+* Save Favorites
+
+* Like & Comment
+
+* Upgrade to Premium
+
+
+
+## Premium User
+
+
+
+* Access Premium Lessons
+
+* Publish Premium Lessons
+
+* Lifetime Premium Access
+
+* Premium Badge
+
+
+
+## Admin
+
+
+
+* Manage Users
+
+* Manage Lessons
+
+* Review Reports
+
+* Feature Lessons
+
+* Platform Analytics
+
+---
+
+# 📊 Database Collections
+
+
+
+```
+
+users
+
+
+
+lessons
+
+
+
+favorites
+
+
+
+comments
+
+
+
+lessonReports
+
+```
+
+---
+
+# 🔒 Security Features
+
+
+
+* Better Auth Authentication
+
+* Protected Routes
+
+* JWT Token Verification
+
+* Role-based Authorization
+
+* Secure Environment Variables
+
+* MongoDB Credentials Hidden
+
+* Stripe Webhook Verification
+
+---
+
+# 🎯 Core Functionalities
+
+
+
+* Authentication System
+
+* Premium Subscription
+
+* Lesson Management
+
+* Favorites System
+
+* Likes & Comments
+
+* Lesson Reporting
+
+* Admin Dashboard
+
+* Featured Lessons
+
+* Public Lesson Discovery
+
+* Search, Filter & Sort
+
+* Pagination
+
+* Responsive Design
+
+* Animated UI
+
+---
+
+# 📌 Future Improvements
+
+
+
+* AI-generated lesson summaries
+
+* Bookmark folders
+
+* User following system
+
+* Notifications
+
+* Rich text editor
+
+* Lesson drafts
+
+* Multi-language support
 
 ---
 
